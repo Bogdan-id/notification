@@ -97,12 +97,9 @@ export default {
 			})
 		},
 		animateAndClose() {
-			new Promise(resolve => {
 				this.animate(this.el, 'bounceOutRight')
 				resolve()
-			}).then(() => {
 				this.$store.dispatch('navigationModule/close_notification')
-			})
 		},
 		setOpacity() {
 			this.opacity = false
