@@ -98,7 +98,6 @@ export default {
 		},
 		animateAndClose() {
 				this.animate(this.el, 'bounceOutRight')
-				resolve()
 				this.$store.dispatch('navigationModule/close_notification')
 		},
 		setOpacity() {
