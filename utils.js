@@ -1,5 +1,7 @@
 // In case if some question arise, you can see full code in my test app at the link below 
-// [LINK]
+// https://github.com/Bogdan-id/alphabet-version-2  
+// or my test App - https://distracted-bohr-49d2d7.netlify.com/
+
 
 import store from './store/store.js'
 
